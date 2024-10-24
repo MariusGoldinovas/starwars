@@ -1,0 +1,30 @@
+.navbar {
+  background-color: var(--main-nav-color);
+  /* padding: 1rem; */
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list li a {
+  color: var(--nav-list-active-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
