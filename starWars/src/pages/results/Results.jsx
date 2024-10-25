@@ -28,7 +28,7 @@ const Results = () => {
   return (
     <>
       <div className="container" key={episode_id}>
-        <h1>Results of Episode {episode_id}</h1>
+        <h1>Characters of Episode {episode_id}</h1>
       </div>
       <div className="container">
         {loading ? (
@@ -39,7 +39,7 @@ const Results = () => {
           <div className="row">
             {characters.map((character) => (
               <div className="col-md-4" key={character.name}>
-                <div className="card">
+                <div className="card m-2">
                   <div className="card-body">
                     <h5 className="card-title">{character.name}</h5>
                     <p className="card-text">Height: {character.height}</p>
