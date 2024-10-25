@@ -3,7 +3,7 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <div className="navbar mt-4">
+    <div className="navbar">
       <ul className="nav-list">
         <li>
           <NavLink
@@ -31,10 +31,26 @@ const Navigation = () => {
         </li>
         <li>
           <NavLink
-            to="/results"
+            to="/people"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
-            Results
+            People
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/planets"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Planets
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/starships"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            StarShips
           </NavLink>
         </li>
       </ul>

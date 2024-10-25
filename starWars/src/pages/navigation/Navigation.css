@@ -1,6 +1,6 @@
 .navbar {
   background-color: var(--main-nav-color);
-  /* padding: 1rem; */
+  padding: 1rem;
 }
 
 .nav-list {
